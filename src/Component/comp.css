@@ -1,0 +1,85 @@
+.one{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    border-radius: 8px;
+}
+
+.left{
+    height: 100%;
+    width: 60%;
+}
+
+.moviesDetails{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.poster{
+    height: 100%;
+    width: 20%;
+}
+
+.poster img{
+    height: 100%;
+    width: 100%;
+}
+
+.movieName{
+    height: 100%;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 5px;
+}
+
+.duration{
+    display: flex;
+    gap: 20px;
+}
+
+.time{
+    border-radius: 8px;
+    padding: 2px;
+    border: 2px solid gray;
+}
+
+.discriptions{
+    height: 40%;
+    width: 100%;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.right{
+    height: 100%;
+    width: 40%;
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+.share{
+    height: 15%;
+    width: 100%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.options{
+    height: 70%;
+    display: flex;
+    width: 50%;
+    gap: 20px;
+}
